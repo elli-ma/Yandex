@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "text-black";
+    src: url("fonts/text-black.woff") format("woff");
+}
+@font-face {
+    font-family: "text-medium";
+    src: url("fonts/text-medium.woff") format("woff");
+}
+@font-face {
+    font-family: "text-regular";
+    src: url("fonts/text-regular.woff") format("woff");
+}
+
+.wrapper {
+    background-image: url("/img/hero__bg.png");
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hero__small {
+    background-image: url("/img/hero__small.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+}
+.hero {
+    background-image: none; 
+}
+@media (min-width: 640px) {
+    .hero {
+        background-image: url("/img/hero.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .hero__small {
+        opacity: 0;
+       }
+}
