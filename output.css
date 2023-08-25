@@ -910,13 +910,18 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.drop-shadow-\[0px_45px_50px_rgba\(130\2c 65\2c 239\2c 0\.7\)\] {
-  --tw-drop-shadow: drop-shadow(0px 45px 50px rgba(130,65,239,0.7));
+.drop-shadow-\[0px_45px_50px_rgba\(130\2c 65\2c 239\2c 0\.3\)\] {
+  --tw-drop-shadow: drop-shadow(0px 45px 50px rgba(130,65,239,0.3));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .drop-shadow-\[40px_-40px_45px__rgba\(130\2c 65\2c 239\2c 0\.2\)\] {
   --tw-drop-shadow: drop-shadow(40px -40px 45px  rgba(130,65,239,0.2));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow-\[0px_40px_40px_rgba\(130\2c 65\2c 239\2c 0\.3\)\] {
+  --tw-drop-shadow: drop-shadow(0px 40px 40px rgba(130,65,239,0.3));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -939,14 +944,14 @@ video {
 }
 
 .wrapper {
-  background-image: url("../img/hero__bg.png");
+  background-image: url("./img/hero__bg.png");
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .hero__small {
-  background-image: url("../img/hero__small.png");
+  background-image: url("./img/hero__small.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -959,7 +964,7 @@ video {
 
 @media (min-width: 640px) {
   .hero {
-    background-image: url("../img/hero.png");
+    background-image: url("./img/hero.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
