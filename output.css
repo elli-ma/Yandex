@@ -847,10 +847,6 @@ video {
   padding-top: 2rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .font-\[\'text-black\'\] {
   font-family: 'text-black';
 }
@@ -943,14 +939,14 @@ video {
 }
 
 .wrapper {
-  background-image: url("/img/hero__bg.png");
+  background-image: url("../img/hero__bg.png");
   background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .hero__small {
-  background-image: url("/img/hero__small.png");
+  background-image: url("../img/hero__small.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -963,7 +959,7 @@ video {
 
 @media (min-width: 640px) {
   .hero {
-    background-image: url("/img/hero.png");
+    background-image: url("../img/hero.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -974,16 +970,12 @@ video {
   }
 }
 
-.hover\:opacity-75:hover {
-  opacity: 0.75;
-}
-
-.hover\:opacity-10:hover {
-  opacity: 0.1;
-}
-
 .hover\:opacity-60:hover {
   opacity: 0.6;
+}
+
+.hover\:opacity-75:hover {
+  opacity: 0.75;
 }
 
 @media (min-width: 640px) {

@@ -16,13 +16,13 @@
 }
 
 .wrapper {
-    background-image: url("/img/hero__bg.png");
+    background-image: url("../img/hero__bg.png");
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .hero__small {
-    background-image: url("/img/hero__small.png");
+    background-image: url("../img/hero__small.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -33,7 +33,7 @@
 }
 @media (min-width: 640px) {
     .hero {
-        background-image: url("/img/hero.png");
+        background-image: url("../img/hero.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: center center;
